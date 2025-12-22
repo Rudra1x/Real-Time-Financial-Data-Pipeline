@@ -1,0 +1,55 @@
+transaction_schema:
+  name: transaction_event
+  version: v1
+  fields:
+    - name: transaction_id
+      type: string
+      nullable: false
+
+    - name: user_id
+      type: string
+      nullable: false
+
+    - name: wallet_id
+      type: string
+      nullable: false
+
+    - name: amount
+      type: double
+      nullable: false
+
+    - name: currency
+      type: string
+      nullable: false
+
+    - name: merchant_id
+      type: string
+      nullable: false
+
+    - name: merchant_category
+      type: string
+      nullable: false
+
+    - name: transaction_type
+      type: string
+      nullable: false
+
+    - name: device_id
+      type: string
+      nullable: false
+
+    - name: ip_address
+      type: string
+      nullable: false
+
+    - name: country
+      type: string
+      nullable: false
+
+    - name: is_international
+      type: boolean
+      nullable: false
+
+    - name: event_timestamp
+      type: timestamp
+      nullable: false

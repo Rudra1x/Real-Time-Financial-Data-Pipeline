@@ -1,0 +1,6 @@
+spark:
+  app_name: transaction_stream_processor
+  master: local[*]
+  checkpoint_location: checkpoints/transactions
+  kafka_bootstrap_servers: localhost:9092
+  topic: transactions

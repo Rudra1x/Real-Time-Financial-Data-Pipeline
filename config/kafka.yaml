@@ -1,0 +1,7 @@
+kafka:
+  bootstrap_servers: localhost:9092
+  topic: transactions
+  acks: all
+  retries: 3
+  linger_ms: 5
+  batch_size: 32768
