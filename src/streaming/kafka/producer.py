@@ -60,7 +60,7 @@ class TransactionProducer:
         while True:
             event = self._generate_transaction()
             self.producer.send(self.topic, event)
-            print(f"Produced event {event['transaction_id']}")
+            #print(f"Produced event {event['transaction_id']}")
             time.sleep(interval)
 
 

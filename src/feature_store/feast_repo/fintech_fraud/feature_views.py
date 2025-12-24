@@ -6,7 +6,7 @@ from datetime import timedelta
 from entities import user
 
 transaction_features_source = FileSource(
-    path="data/transaction_features.parquet",
+    path="data/transaction_features",
     timestamp_field="event_timestamp",
 )
 
